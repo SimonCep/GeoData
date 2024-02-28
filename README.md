@@ -6,10 +6,10 @@
 GeoData is a web application designed to display Lithuania's various locations, its borders on a map along with additional information, like its population, rating, hierarchy and all available naming. 
 
 ## Technologies Used
-React.js;
-.NET;
-MySQL;
-Azure;
+- React.js
+- .NET
+- MySQL
+- Azure
 
 ## Features
 - Display location borders on a map
