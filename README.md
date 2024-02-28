@@ -25,8 +25,8 @@ Azure;
 4. Edit it's information or create a brand new location.
 
 ## Authors
-Simas Čeponis
-Karolina Belusova
-Patrikas Armalis
-Ignas Eismantas
-Neda Narmontaitė
+- Simas Čeponis
+- Karolina Belusova
+- Patrikas Armalis
+- Ignas Eismantas
+- Neda Narmontaitė
