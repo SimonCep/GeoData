@@ -1,0 +1,96 @@
+﻿.container {
+  display: flex;
+}
+
+.appTitle {
+  display: flex;
+  padding: 10px;
+  height: 60px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.main {
+  flex: 1;
+  overflow: auto;
+}
+
+.sidebar {
+  height: 100vh;
+  background-color: #f9f9f9;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebarItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.map {
+  position: relative;
+  height: calc(100% - 80px);
+  width: 100%;
+}
+
+.mapContainer {
+  height: 100%;
+  width: 100%;
+}
+
+.mapPosition {
+  background-color: rgba(35, 55, 75, 0.9);
+  color: #fff;
+  padding: 12px 12px;
+  font-family: monospace;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  margin: 12px;
+  border-radius: 4px;
+  position: absolute;
+}
+
+.mapSaveButton {
+  font-family: monospace;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: inherit;
+  color: white;
+  cursor: pointer;
+}
+
+.pageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.searchContainer {
+  display: flex;
+  flex: 1;
+}
+
+.buttonGroupContainer {
+  display: flex;
+  margin-left: auto;
+}
+
+.topbarbutton {
+  margin-right: 10px;
+  height: 55.99px;
+}
